@@ -11,3 +11,12 @@ ages.shift(2)
 account_balances.unshift(45976.54)
 # .length will return the total number of elements in the 'is_enrolled' array.
 is_enrolled.length
+
+# Demonstrating Understanding or Array Indexing
+
+cities = ["Brooklyn", "Boulder", "Philadelphia", "San Diego", "Denver", "Portland"]
+
+    # Accessing the last element of an array
+    cities[-1] # = "Portland"
+    cities[0] # = "Brooklyn"
+    cities[2] = "Golden" #Reassigns elements index=2 ("Philadelphia")
